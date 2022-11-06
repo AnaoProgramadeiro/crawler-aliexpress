@@ -1,0 +1,23 @@
+{
+  "name": "aliexscraper",
+  "version": "1.0",
+  "description": "Muié semi-nua muié muié pelada,",
+  "main": "index.js",
+  "scripts": {
+    "nodemon": "nodemon index.js",
+    "start": " "
+  },
+  "author": "Anão Scripteiro",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "chromium": "^3.0.3",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.15",
+    "puppeteer": "^19.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

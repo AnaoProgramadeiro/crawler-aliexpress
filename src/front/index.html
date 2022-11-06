@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+  src="https://code.jquery.com/jquery-3.6.1.js"
+  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="src/front/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://kit.fontawesome.com/d97b87339f.js" crossorigin="anonymous"></script>
+    <title>Crawler Aliexpress</title>
+</head>
+<body>
+<h1>Crawler Aliexpress</h1>
+<div id="container">
+    <div id="inicio">
+        <div class="search-box">
+            <input class="search-input" type="text" id="textfield" placeholder="Digite um termo...">
+            <button class="search-btn" id="btn" onclick="go()"><i class="fas fa-search"></i></button>
+        </div>
+    </div>
+    <br>
+
+    <select id='selecao'>
+        <option value="1">N° anúncios</option>
+        <option value="1">1 anúncio</option>
+        <option value="2">2 anúncios</option>
+        <option value="3">3 anúncios</option>
+        <option value="4">4 anúncios</option>
+        <option value="5">5 anúncios</option>
+        <option value="10">10 anúncios</option>
+        <option value="15">15 anúncios</option>
+        <option value="20">20 anúncios</option>
+        <option value="25">25 anúncios</option>
+    </select>
+    <select id='paginas'>
+        <option value="1">N° páginas</option>
+        <option value="1">1 página</option>
+        <option value="2">2 páginas</option>
+        <option value="3">3 páginas</option>
+        <option value="4">4 páginas</option>
+        <option value="5">5 páginas</option>
+        <option value="6">6 páginas</option>
+        <option value="7">7 páginas</option>
+        <option value="8">8 páginas</option>
+        <option value="9">9 páginas</option>
+        <option value="10">10 páginas</option>
+    </select>
+
+    <div id='aguarde'></div>
+    <div id="pagina"></div>
+    <div id="quantidade"></div>
+
+    <div id='images'>
+        <div id="wrapper"></div>
+    </div>
+
+</div>
+</body>
+
+<script>
+
+
+
+</script>
+<script src="/src/front/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+</html>
